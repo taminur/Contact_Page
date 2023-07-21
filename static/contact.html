@@ -5,12 +5,15 @@
     </head>
     <body>
         <h2>Contact me</h2>
-        <form action="" method="post">
+        <form action="http://127.0.0.1:5000/api/send" method="post">
             <label>Name: </label>
-            <input autocomplete="off" autofocus name="name" type="text" placeholder="Enter your name"><br>
+            <input autocomplete="on" autofocus name="name" type="text" placeholder="Enter your name"><br>
             <br>
             <label>Email: </label>
-            <input autocomplete="off" name="email" type="email" placeholder="Enter email"><br>
+            <input autocomplete="on" name="email" type="email" placeholder="Enter email"><br>
+            <br>
+            <label>Subject: </label>
+            <input autocomplete="on" name="sub" type="text" placeholder="Enter Subject"><br>
             <br>
             <label>Message: </label>
             <textarea name="msg" rows="4" cols="50" placeholder="Enter your message here"></textarea><br>

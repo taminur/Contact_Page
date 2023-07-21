@@ -2,3 +2,4 @@ smtplib
 MIMEText
 MIMEMultipart
 os
+flask
